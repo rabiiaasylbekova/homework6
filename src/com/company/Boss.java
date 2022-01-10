@@ -11,6 +11,7 @@ public class Boss extends GameEntity {
         this.weapon = weapon;
     }
 
-    public void setHealth(int i) {
+    public String printInfo(){
+        return "Жизнь 700" + " " + "Урон 200";
     }
 }

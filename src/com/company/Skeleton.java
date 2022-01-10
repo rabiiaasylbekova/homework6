@@ -1,14 +1,13 @@
 package com.company;
 
 public class Skeleton extends Boss{
-    int numberOfArrows;
+    int arrows = 50;
 
-    public int getNumberOfArrows() {
-        return numberOfArrows;
+    public int getArrows() {
+        return arrows;
     }
-
-    public void setNumberOfArrows(int numberOfArrows) {
-        this.numberOfArrows = numberOfArrows;
+    public String printInfo(){
+        return super.printInfo() + arrows;
     }
 }
 
